@@ -108,7 +108,7 @@ return view.extend({
 			'local_conf_path',
 			_('Local Configuration Path'),
 			_(
-				'Path of the optional file local.conf (see documentation at https://docs.zerotier.com/config#local-configuration-options)'
+				'Path of the optional file local.conf (<a target="_blank" href="https://docs.zerotier.com/config#local-configuration-options">see documentation</a>)'
 			)
 		);
 
@@ -150,7 +150,7 @@ return view.extend({
 			'network',
 			_('Networks'),
 			_(
-				'Network configuration, you can have as many configurations as networks you want to join. see documentation at https://docs.zerotier.com/config/#network-specific-configuration'
+				'Network configuration, you can have as many configurations as networks you want to join. (<a target="_blank" href="https://docs.zerotier.com/config/#network-specific-configuration">see documentation</a>)'
 			)
 		);
 		s.anonymous = true;
@@ -167,10 +167,8 @@ return view.extend({
 			form.Flag,
 			'allow_managed',
 			_('Allow Managed'),
-			_(
-				'Allow ZeroTier to set IP Addresses and Routes ( local/private ranges only). Default Yes.'
-			)
 		);
+		//o.tooltip = _('Allow ZeroTier to set IP Addresses and Routes (local/private ranges only). Default Yes.');
 		o.default = '1';
 		o.rmempty = false;
 
@@ -179,10 +177,8 @@ return view.extend({
 			form.Flag,
 			'allow_global',
 			_('Allow Global'),
-			_(
-				'Allow ZeroTier to set Global/Public/Not-Private range IPs and Routes. Default No.'
-			)
 		);
+		//o.tooltip = _('Allow ZeroTier to set Global/Public/Not-Private range IPs and Routes. Default No.');
 		o.default = '0';
 		o.rmempty = false;
 
@@ -191,8 +187,8 @@ return view.extend({
 			form.Flag,
 			'allow_default',
 			_('Allow Default'),
-			_('Allow ZeroTier to set the Default Route on the system. Default No.')
 		);
+		//o.tooltip = _('Allow ZeroTier to set the Default Route on the system. Default No.');
 		o.default = '0';
 		o.rmempty = false;
 
@@ -201,8 +197,8 @@ return view.extend({
 			form.Flag,
 			'allow_dns',
 			_('Allow DNS'),
-			_('Allow ZeroTier to set DNS servers. Default No.')
 		);
+		//o.tooltip = _('Allow ZeroTier to set DNS servers. Default No.');
 		o.default = '0';
 		o.rmempty = false;
 
@@ -211,8 +207,8 @@ return view.extend({
 			form.Flag,
 			'auto_nat',
 			_('Auto NAT clients'),
-			_('Allow ZeroTier clients access your LAN network.')
 		);
+		//o.tooltip = _('Allow ZeroTier clients access your LAN network.');
 		o.default = '0';
 		o.rmempty = true;
 

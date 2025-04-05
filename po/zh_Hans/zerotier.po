@@ -43,7 +43,7 @@ msgstr "允许 ZeroTier 设置全局/公网/非私有网络的 IP 地址和路�
 
 #: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/base.js:266
 msgid ""
-"Allow ZeroTier to set IP Addresses and Routes ( local/private ranges only). "
+"Allow ZeroTier to set IP Addresses and Routes (local/private ranges only). "
 "Default Yes."
 msgstr "允许 ZeroTier 设置 IP 地址和路由（仅限本地/私有网络）。默认为 Yes"
 
@@ -141,11 +141,11 @@ msgstr "网络接口信息"
 #: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/base.js:218
 msgid ""
 "Network configuration, you can have as many configurations as networks you "
-"want to join. see documentation at https://docs.zerotier.com/config/#network-"
-"specific-configuration"
+"want to join. (<a target=\"_blank\" href=\"https://docs.zerotier.com/"
+"config/#network-specific-configuration\">see documentation</a>)"
 msgstr ""
-"网络配置，可以设置多个想要加入的网络。详见文档https://docs.zerotier.com/"
-"config/#network-specific-configuration"
+"网络配置，可以设置多个想要加入的网络。（<a target=\"_blank\" href=\"https://docs.zerotier.com/"
+"config/#network-specific-configuration\">详见文档</a>）"
 
 #: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/base.js:216
 msgid "Networks"
@@ -161,11 +161,11 @@ msgstr "打开网站"
 
 #: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/base.js:174
 msgid ""
-"Path of the optional file local.conf (see documentation at https://docs."
-"zerotier.com/config#local-configuration-options)"
+"Path of the optional file local.conf (<a target=\"_blank\" "
+"href=\"https://docs.zerotier.com/config#local-configuration-options\">see documentation</a>)"
 msgstr ""
-"可选文件 local.conf 的路径（详见文档https://docs.zerotier.com/config#local-"
-"configuration-options）"
+"可选文件 local.conf 的路径（<a target=\"_blank\" "
+"href=\"https://docs.zerotier.com/config#local-configuration-options\">详见文档</a>）"
 
 #: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/base.js:181
 msgid "Persistent Configuration Path"
@@ -183,7 +183,7 @@ msgstr "运行中"
 
 #: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/base.js:155
 msgid "Sets the ZeroTier listening port (default 9993; set to 0 for random)"
-msgstr "设置 ZeroTier 监听端口(默认为9993；为0时将随机设置端口)"
+msgstr "设置 ZeroTier 监听端口（默认为9993；为0时将随机设置端口）"
 
 #: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/base.js:147
 msgid "Sets whether ZeroTier is enabled or not"
