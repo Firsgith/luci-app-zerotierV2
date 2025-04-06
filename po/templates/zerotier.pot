@@ -140,7 +140,7 @@ msgid ""
 msgstr ""
 
 #: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/base.js:216
-msgid "Networks"
+msgid "Join Network"
 msgstr ""
 
 #: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/interface.js:77

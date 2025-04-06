@@ -23,8 +23,10 @@ fi
 
 zerotier_nat() {
 	local cfg="$1"
-	local id auto_nat
+	local enabled id auto_nat
 	local portDeviceName ip_segment
+	config_get_bool enabled "$cfg" 'enabled' 0
+	[ "$enabled" -eq "1" ] || return
 	config_get id "$cfg" 'id'
 	config_get_bool auto_nat "$cfg" 'auto_nat' 0
 	echo "id $id"

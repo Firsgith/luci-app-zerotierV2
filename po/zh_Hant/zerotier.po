@@ -148,8 +148,8 @@ msgstr ""
 "config/#network-specific-configuration\">詳見文檔</a>）"
 
 #: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/base.js:216
-msgid "Networks"
-msgstr "網路"
+msgid "Join Network"
+msgstr "加入網路"
 
 #: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/interface.js:77
 msgid "No interface online."
